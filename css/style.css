@@ -239,7 +239,22 @@ footer p {
     width: 27.5%;
   }
   /* FIM PROJETOS */
-
+  
+  @media (max-width: 900px){
+    .formulario img {
+      display: none;
+    }
+  
+    .formulario {
+      font-size: medium;
+    }
+  }
+  
+  @media (max-width: 500px){
+    input, label, textarea {
+      font-size: 15px;
+    }
+  }
   /* INICIO RODAPE */
   footer{
     flex-direction: column;
@@ -253,6 +268,7 @@ footer p {
   footer p{
     margin:0;
   }
+  
   /* FIM RODAPE */
 
 }
